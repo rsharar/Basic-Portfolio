@@ -6,7 +6,7 @@ body {
 
 .header {
     background-color: white;
-    border: 2px solid black;
+    border-bottom: 2px solid #777777;
     height: 65px;
 }
 
@@ -17,7 +17,7 @@ body {
     color: white;
     font-size: 24px;
     float: left;
-    margin-left: 100px;
+    margin-left: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center; 
@@ -44,24 +44,28 @@ body {
     background-color: white;
     width: 960px;
     border: 2px solid black;
-    height: 400px;
-    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #about-me-header {
-    float: left;
+    text-align: left;
     color: #62a8a4;
     font-size: 24px;
-    font-weight: bold; 
+    font-weight: bold;
+    padding-bottom: 20px; 
+    border-bottom: 3px solid #dddddd;
 }
 
 #img {
     float: left;
-    padding-right: 20px;    
+    padding-right: 20px;
+    padding-top: 20px;    
 }
 
 #biography {
     line-height: 2.0;
+    padding-top: 20px;
 }
 
 
