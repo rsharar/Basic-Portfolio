@@ -1,0 +1,58 @@
+/* Basic-portfolio styling */
+
+body {
+    text-align: center;
+    color: #777777;
+}
+
+header {
+    background-color: black;
+    height: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+
+}
+
+#name {
+    background-color: #62a8a4;
+    width: 200px;
+    color: white;
+    font-size: 24px;
+    float: left;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#menu {
+    text-align: right;
+    padding-right: 100px;
+}
+
+
+#about-me {
+    clear: both;
+    background-color: white;
+    width: 960px;
+    border: 2px solid #cccccc;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#footer-band-green {
+    background-color: #4aaaa5;
+    height: 10px;
+}
+
+#footer-copyright {
+    background-color:#666666;
+    font-size: 8px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    color: white;
+}
+#footer-band-black {
+    background-color: #666666;
+    height: 20px;
+}
