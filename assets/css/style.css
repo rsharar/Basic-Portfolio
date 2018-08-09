@@ -39,7 +39,7 @@ body {
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    background-image: url(../images/stardust.png);
+    background-image: url(../images/texturetastic_gra_@2X.png);
 }
 
 #about-me-box {
@@ -52,6 +52,13 @@ body {
     padding-top: 10px;
 }
 
+#about-me-line {
+    height: 0px;
+    border-bottom: 3px solid #dddddd;
+    width: 900px;
+    padding-top: 10px;
+}
+
 #about-me-header {
     text-align: left;
     color: #62a8a4;
@@ -59,7 +66,8 @@ body {
     font-weight: bold;
     padding-bottom: 20px; 
     padding-left: 20px;
-    border-bottom: 3px solid #dddddd;
+    padding-top: 20px;
+    margin-bottom: 10px;
 }
 
 #img {
@@ -75,11 +83,49 @@ body {
     padding-left: 20px;
     padding-right: 10px;
 }
+#form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 900px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
 
+#contact-form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 900px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+}
+
+#message-form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 900px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    height: 200px;
+    border: 1px solid #dddddd;
+}
+
+#submit-btn {
+    background-color: #62a8a4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
 
 #footer-band-green {
     background-color: #4aaaa5;
     height: 10px;
+    position: relative;
+    bottom: 1px;
 }
 
 #footer-copyright {
@@ -91,5 +137,5 @@ body {
     color: white;
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
 }
