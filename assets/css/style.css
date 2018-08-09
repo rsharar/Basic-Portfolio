@@ -7,7 +7,7 @@ body {
 .header {
     background-color: white;
     border-bottom: 2px solid #777777;
-    height: 65px;
+    height: 85px;
 }
 
 
@@ -15,18 +15,20 @@ body {
     background-color: #62a8a4;
     width: 200px;
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     float: left;
-    margin-left: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-left: 210px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center; 
 }
 
 #menu {
     text-align: right;
-    padding-right: 100px;
-    padding-top: 20px;
+    padding-right: 250px;
+    padding-top: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 
@@ -46,6 +48,8 @@ body {
     border: 2px solid black;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 100px;
+    padding-top: 10px;
 }
 
 #about-me-header {
@@ -54,18 +58,22 @@ body {
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 20px; 
+    padding-left: 20px;
     border-bottom: 3px solid #dddddd;
 }
 
 #img {
     float: left;
     padding-right: 20px;
-    padding-top: 20px;    
+    padding-top: 20px; 
+    padding-left: 20px;   
 }
 
 #biography {
     line-height: 2.0;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 
@@ -82,8 +90,6 @@ body {
     padding-bottom: 2px;
     color: white;
     text-align: center;
-}
-#footer-band-black {
-    background-color: #666666;
-    height: 20px;
+    position: absolute;
+    bottom: 0;
 }
