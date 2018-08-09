@@ -121,6 +121,43 @@ body {
 
 }
 
+
+.project-tile {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#proj-1 {
+    background-image: url(../images/placeholder.png);
+    float: left;
+}
+
+#proj-2 {
+    background-image: url(../images/placeholder.png);
+    float: left;
+}
+
+.overflow {
+    clear: both;
+}
+
+#proj-3 {
+    background-image: url(../images/placeholder.png);
+}
+
+#proj-4 {
+    background-image: url(../images/placeholder.png);
+    float: left;
+}
+
+#proj-5 {
+    background-image: url(../images/placeholder.png);
+}
+
 #footer-band-green {
     background-color: #4aaaa5;
     height: 10px;
