@@ -121,7 +121,13 @@ body {
 
 }
 
-
+.grid-2x3 {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
 .project-tile {
     background-color: black;
     width: 200px;
@@ -133,16 +139,12 @@ body {
 
 #proj-1 {
     background-image: url(../images/placeholder.png);
-    float: left;
+    
 }
 
 #proj-2 {
     background-image: url(../images/placeholder.png);
-    float: left;
-}
-
-.overflow {
-    clear: both;
+    
 }
 
 #proj-3 {
@@ -151,7 +153,6 @@ body {
 
 #proj-4 {
     background-image: url(../images/placeholder.png);
-    float: left;
 }
 
 #proj-5 {
@@ -173,6 +174,5 @@ body {
     padding-bottom: 2px;
     color: white;
     text-align: center;
-    position: absolute;
     bottom: 0px;
 }
