@@ -135,28 +135,53 @@ body {
     margin: 20px;
     padding-left: 10px;
     padding-top: 10px;
+    position: relative;
+}
+
+#banner-1 {
+    background-color: #62a8a4;
+    color: white;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+#banner-2 {
+    background-color: #62a8a4;
+    color: white;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: absolute;
 }
 
 #proj-1 {
     background-image: url(../images/placeholder.png);
-    
+    background-image: url(../images/hangman.png);
 }
 
 #proj-2 {
     background-image: url(../images/placeholder.png);
-    
+    background-image: url(../images/rpg.jpeg);
 }
 
 #proj-3 {
     background-image: url(../images/placeholder.png);
+    background-image: url(../images/trivia.jpeg);
 }
 
 #proj-4 {
     background-image: url(../images/placeholder.png);
+    background-image: url(../images/rock.jpeg);
 }
 
 #proj-5 {
     background-image: url(../images/placeholder.png);
+    background-image: url(../images/science.jpeg);
 }
 
 #footer-band-green {
