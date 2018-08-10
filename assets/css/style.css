@@ -7,7 +7,7 @@ body {
 .header {
     background-color: white;
     border-bottom: 2px solid #777777;
-    height: 85px;
+    height: 90px;
 }
 
 
@@ -21,6 +21,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center; 
+    display: inline;
 }
 
 #menu {
@@ -39,7 +40,7 @@ body {
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    background-image: url(../images/texturetastic_gra_@2X.png);
+    background-image: url(../images/brushed.png);
 }
 
 #about-me-box {
@@ -178,20 +179,28 @@ body {
     background-image: url(../images/science.jpeg);
 }
 
-#footer-band-green {
+
+/* #footer-band-green {
     background-color: #4aaaa5;
-    height: 10px;
+    height: 40px;
     position: relative;
-    bottom: 1px;
-}
+} */
 
 #footer-copyright {
     background-color:#666666;
-    font-size: 8px;
+    font-size: 10px;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 2px;
     color: white;
     text-align: center;
+    position: relative;
     bottom: 0px;
+    height: 40px;
+    border-top: 5px solid #62a8a4;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
 }
