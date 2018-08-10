@@ -34,15 +34,6 @@ body {
     font-size: 16px;
 }
 
-#menu-hover:hover{
-    text-align: right;
-    padding-right: 200px;
-    padding-top: 40px;
-    font-size: 20px;
-    color: blue;
-}
-
-
 .box-middle {
     clear: both;
     overflow: auto;
@@ -150,7 +141,7 @@ body {
     padding-left: 10px;
     padding-top: 10px;
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #banner-1 {
